@@ -1,0 +1,44 @@
+.main-container {
+    -fx-border-color: white;
+    -fx-border-width: 5;
+}
+.main-panel{
+-fx-background-image: url('../img/hotel_main_menu.png');
+-fx-background-size: 982;
+-fx-background-position: center;
+}
+
+.panel-container {
+    -fx-background-image: url('../img/hotel_main_panel.png');
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+}
+
+.custom-button {
+    -fx-background-color: rgba(129, 26, 100, 0.5);
+    -fx-background-radius: 20 20 20 20;
+    -fx-font-family: 'Arial Black';
+    -fx-font-size: 20.0;
+    -fx-text-fill: white;
+    -fx-cursor: HAND;
+}
+
+.user-icon {
+    -fx-image: url('../img/user_icon.png');
+    -fx-fit-width: 200.0;
+}
+
+.logo{
+-fx-image: url('../img/logo.png');
+}
+
+.dialog-pane{
+    -fx-background-image: url('../img/hotel_main_panel.png');
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-font-family: 'Arial Black';
+    -fx-font-size: 15.0;
+}
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
